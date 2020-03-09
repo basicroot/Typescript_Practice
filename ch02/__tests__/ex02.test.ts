@@ -5,10 +5,10 @@ test('slow speed', () => {
 });
 
 test('medium speed', () => {
-  expect(getSpeed("medium")).toEqual(10);
+  expect(getSpeed("medium")).toEqual(50);
 });
 
 test('fast speed', () => {
-  expect(getSpeed("slow")).toEqual(10);
+  expect(getSpeed("fast")).toEqual(200);
 });
 
