@@ -16,9 +16,7 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: '10.x'
-      - name: Dir
-        run: ls
       - name: Install Dependencies
-        run: npm install
+        run: npm --prefix ch02 install
       - name: Run test
-        run: npm test
+        run: npm --prefix ch02 test
