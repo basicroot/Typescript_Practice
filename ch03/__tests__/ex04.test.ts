@@ -10,8 +10,8 @@ test('increment', () => {
 });
 
 test('decrement', () => {
-  const expected = 45;
-  const acutal = reducer(0,{
+  const expected = -45;
+  const acutal = reducer(10,{
     type: 'decrement',
     amount: 55,
   });
